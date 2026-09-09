@@ -1,0 +1,5 @@
+﻿metric,n_queries,n_query_condition_pairs,pearson_r,pearson_ci95_low,pearson_ci95_high,spearman_rho,spearman_ci95_low,spearman_ci95_high,human_minus_gpt_mean,bias_ci95_low,bias_ci95_high,bootstrap_replicates,seed
+factuality,50,400,0.2821,0.1347,0.4316,0.2808,0.1312,0.424,0.6268,0.4405,0.8128,2000,20260807
+diversity,50,400,0.5412,0.4282,0.6428,0.5163,0.4023,0.6269,0.1305,0.0225,0.2445,2000,20260807
+clarity,50,400,0.3016,0.1668,0.4234,0.273,0.1416,0.3989,-0.5191,-0.6319,-0.404,2000,20260807
+insightfulness,50,400,0.3906,0.2858,0.4838,0.3721,0.2811,0.4537,-0.5206,-0.61,-0.4361,2000,20260807

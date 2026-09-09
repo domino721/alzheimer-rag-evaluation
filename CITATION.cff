@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use these data or analyses, please cite the associated manuscript."
+title: "LLM Judge and Biomedical Expert Agreement in Alzheimer's Disease Literature RAG"
+type: software
+authors:
+  - family-names: Cho
+    given-names: Minho
+  - family-names: Yeom
+    given-names: Sihyeong
+  - family-names: Jang
+    given-names: Youngjin
+  - family-names: Choi
+    given-names: Byoungyun
+  - family-names: Cho
+    given-names: Kyoung Sang
+  - family-names: Kim
+    given-names: Harksoo
+repository-code: "https://github.com/domino721/alzheimer-rag-evaluation"
+date-released: 2026-09-08
