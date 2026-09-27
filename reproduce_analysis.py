@@ -39,5 +39,5 @@ for metric in METRICS:
 pd.DataFrame(reliability).to_csv(ROOT/'inter_rater_agreement.csv',index=False)
 pd.DataFrame(descriptive).to_csv(ROOT/'condition_means.csv',index=False)
 pd.DataFrame(ranks).to_csv(ROOT/'condition_rank_agreement.csv',index=False)
-(ROOT/'environment.json').write_text(json.dumps({p:md.version(p) for p in ['numpy','pandas','scipy','pingouin','krippendorff']},indent=2)+'\n')
+(ROOT/'environment.json').write_text(json.dumps({p:md.version(p) for p in ['numpy','pandas','scipy','pingouin','krippendorff','matplotlib']},indent=2)+'\n')
 print(pd.DataFrame(reliability).to_string(index=False)); print(pd.DataFrame(ranks).to_string(index=False));print('PASS: dimensions, unique keys, scale bounds, and recomputed panel means')
