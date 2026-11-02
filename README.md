@@ -51,7 +51,11 @@ Legacy pipeline: [yeomsee/best_practices_bio_rag](https://github.com/yeomsee/bes
 
 ## Citation and reuse
 
-See [CITATION.cff](CITATION.cff). No arXiv identifier has been assigned to this release. No additional software or data license is granted by this repository; obtain permission for reuse beyond applicable legal rights.
+See [CITATION.cff](CITATION.cff). No arXiv identifier has been assigned to this release.
+
+The rating and result CSV files are licensed under [CC BY 4.0](LICENSE-DATA): reuse is permitted with attribution. The analysis scripts are licensed under the [MIT License](LICENSE). The manuscript PDFs and LaTeX source archive are distributed under the licence selected for the corresponding arXiv submission.
+
+Query texts, generated responses, retrieved abstracts, and evaluator names are not part of this release and are not licensed for redistribution. The published ratings support reanalysis of the scores themselves; they do not permit re-scoring the original responses, which are not included.
 
 ## Release verification
 
