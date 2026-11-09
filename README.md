@@ -36,10 +36,12 @@ The central result is that relatively similar system rankings (Spearman 0.67–0
 - `arxiv_human_gpt_anonymized.csv`: 400 matched pairs with panel summaries and GPT scores.
 - `condition_means.csv`, `inter_rater_agreement.csv`, `condition_rank_agreement.csv`, `query_cluster_bootstrap.csv`: reproduced results.
 - `sensitivity_analysis.py`, `sensitivity_results.csv`: complete-case, rater-omission, and within-condition analyses.
-- `plot_agreement.py`: optional reproduction of the main summary figure using the primary output CSVs.
+- `plot_study_design.py`, `study_design.pdf`: optional reproduction of the study design and evaluation protocol diagram (Figure 1).
+- `plot_agreement.py`, `agreement_summary.pdf`: optional reproduction of the main summary figure (Figure 2) using the primary output CSVs.
 - `DATA_DICTIONARY.md`: field definitions, missingness, and weighting.
 - `environment.json`, `requirements.txt`: tested analysis versions.
-- `arxiv_submission.zip`: LaTeX source, bibliography, prompt figures, and ancillary data/scripts. Extract and compile `sn-article.tex` with XeLaTeX/BibTeX or Tectonic.
+- `LICENSE`, `LICENSE-DATA`: MIT code licence and CC BY 4.0 data licence.
+- `arxiv_submission.zip`: LaTeX source, bibliography, vector figures, searchable appendix prompt listings, and ancillary data/scripts. Extract and compile `sn-article.tex` with XeLaTeX/BibTeX or Tectonic.
 
 Query IDs and rater IDs are consistent across tables. Query texts, generated responses, retrieved abstracts, and evaluator names are excluded. One missing query-text cell was linked by its existing query ID after all eight response/context pairs were verified against the other files. Its observed scores are retained; scores were not imputed.
 
@@ -59,4 +61,4 @@ Query texts, generated responses, retrieved abstracts, and evaluator names are n
 
 ## Release verification
 
-The 2026-09-27 preparation rechecked all 8,000 human score cells (including 61 missing values) and 1,600 GPT scores against the local archived originals. Recomputed primary results match the preceding analysis release. The manuscript foregrounds response-level versus system-level evaluation, adds a summary figure and descriptive sensitivity checks, and consolidates repeated limitations. Evaluation materials were blinded at distribution, as confirmed by the author. See [CHANGELOG.md](CHANGELOG.md).
+The 2026-09-27 preparation rechecked all 8,000 human score cells (including 61 missing values) and 1,600 GPT scores against the local archived originals. Recomputed primary results match the preceding analysis release. Subsequent editorial updates added ethics/role disclosures, explicit code/data licences, a reproducible vector study-design diagram (`study_design.pdf`), searchable verbatim appendix prompt listings (`Prompts A1–A12`), and empirical scale-distribution context for score offsets, without altering any primary data or statistical estimates. Evaluation materials were blinded at distribution, as confirmed by the author. See [CHANGELOG.md](CHANGELOG.md).

@@ -28,14 +28,13 @@ Summary: https://creativecommons.org/licenses/by/4.0/
 
 ## Files not covered
 
-The analysis scripts (`*.py`) are licensed separately under the MIT License;
-see LICENSE.
+The analysis and figure scripts (`*.py`) are licensed separately under the MIT
+License; see LICENSE.
 
-`manuscript.pdf`, `agreement_summary.pdf`, and `arxiv_submission.zip` contain
-the manuscript and its LaTeX source. These are distributed under the licence
-selected for the corresponding arXiv submission and are not covered by CC BY
-4.0. The Springer Nature LaTeX class files included in the source archive
-remain under their own terms.
+`manuscript.pdf`, `study_design.pdf`, `agreement_summary.pdf`, and
+`arxiv_submission.zip` contain the manuscript, figures, and LaTeX source. These
+are distributed under the licence selected for the corresponding arXiv
+submission and are not covered by CC BY 4.0.
 
 Query texts, generated responses, retrieved abstracts, and evaluator names are
 not included in this repository and are not licensed for redistribution.
